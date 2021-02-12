@@ -28,6 +28,9 @@ h1{
     color: aliceblue;
     font-size: 2rem;
 }
+h2{
+    display:none;
+}
 nav{
     margin-left: 50%;
 }
