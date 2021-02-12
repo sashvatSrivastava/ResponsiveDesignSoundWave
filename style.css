@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+section#nav-links{
+    position: fixed;
+    background-color: rgba(132, 3, 252, 0.6);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+h1{
+    margin-top: 3px;
+    margin-left: 1%;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 2rem;
+}
+nav{
+    margin-left: 50%;
+}
+
+nav ul a{
+    text-decoration: none;
+    margin-top: 24px;
+    color: black;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 15%;
+}
+
+nav ul a li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+section#home{
+    background: linear-gradient(rgb(48,0,85), rgb(32,0,160));
+    width: 100%;
+    height: 900px;
+}
+
+div#homedet{
+    margin-top: 22%;
+    float: left;
+    width: 40%;
+}
+h1#homeTitle{
+    margin-top: -10%;
+}
+p#homeText{
+    margin-left: 1.7%;
+}
+div#homeImg{
+    float: right;
+    width: 30%;
+    margin-top: 100px;
+
+}
+div#homeImg img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+section#about{
+    background: linear-gradient( rgb(32,0,160),rgb(48,0,85));
+    width: 100%;
+    height: 900px;
+}
+div#aboutdet{
+    margin-top: 22%;
+    float: right;
+    width: 40%;
+    text-align: end;
+}
+section#about div#aboutdet h1#aboutTitle{
+    margin-top: -10%;
+    right: 0%;
+}
+p#aboutText{
+    margin-right: 1.7%;
+}
+div#aboutImg{
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+
+}
+div#aboutImg img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+section#projects{
+    background: linear-gradient(rgb(48,0,85), rgb(32,0,160));
+    width: 100%;
+    height: 650px;
+}
+div#projectdet{
+    margin-top: 15%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+p#projectText{
+    font-size: 1.5rem;
+}
+
+div#projectitms{
+    width: 100%;
+    position: absolute;
+    margin-top: 30%;
+}
+
+div#projectitms div#projectitm1{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+div#projectitms div#projectitm2{
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+div#projectitms div#projectitm3{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+div#projectitms div#projectitm4{
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+div#projectitms div#projectitm5{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+div#projectitms div#projectitm6{
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+audio{
+    width: 90%;
+}
+
